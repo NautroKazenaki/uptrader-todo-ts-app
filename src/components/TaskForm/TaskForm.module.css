@@ -1,0 +1,69 @@
+.mwOverlay {
+    display: block;
+    width: 50%;
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(0, 0, 0, 0.92);
+    color: white;
+     text-align: center;  
+    padding: 10px; 
+    border-radius: 30px;
+}
+.form {
+    display: contents;
+}
+.closeButtonContainer {
+    float: right;
+    cursor: pointer;
+}
+.formContentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+    
+}
+.label {
+    margin-bottom: 10px;
+  }
+
+input, textarea, select {
+     width: 100%; 
+     max-width: 500px;
+     max-height: 220px;
+    padding: 5px;
+    margin-top: 5px;
+}
+.subtasksContainer {
+    display: inline;
+}
+.subtaskContainer {
+    
+    text-align: center;
+    align-items: baseline;
+}
+.input {
+    width: 50vw;
+}
+.checkboxInput {
+    width: 16px;
+}
+.labelAndInputContainer {
+    width:50vw;
+    display: flex;
+    justify-content: center;
+}
+.endDataLabelContainer{
+    display: grid;
+}
+.closeButtonContainer{
+   
+    float: right;
+}
+.textField__label {
+    color: white !important;
+}
